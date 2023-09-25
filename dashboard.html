@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascripet Bank</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="dashboard">
+    <header>
+      <h1>Bank Balance</h1>
+    </header>
+    <section>
+      <div class="amount-1">
+        <h3>Deposit</h3>
+        <h2><span id="deposit-area">00</span>Tk</h2>
+      </div>
+      <div class="amount-2">
+        <h3>Withdraw</h3>
+        <h2><span id="withdraw-area">00</span>Tk</h2>
+      </div>
+      <div class="amount-3">
+        <h3>Balance</h3>
+        <h2><span id="balance-area">1860</span>Tk</h2>
+      </div>
+    </section>
+    <section>
+      <div class="deposit">
+        <h3>Deposit</h3>
+        <input id="deposit-amount" type="number" placeholder="Enter amount" />
+        <br />
+        <button id="deposit">Deposit</button>
+      </div>
+      <div class="withdraw">
+        <h3>Withdraw</h3>
+        <input id="withdraw-amount" type="number" placeholder="Enter amount" />
+        <br />
+        <button id="withdraw">Withdraw</button>
+      </div>
+    </section>
+    <script src="dash-main.js"></script>
+  </body>
+</html>
